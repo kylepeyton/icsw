@@ -116,8 +116,8 @@ icsw.out <- with(FoxDebate, icsw.tsls(D = watchpro, X = cbind(1, covmat),
                           weights = IPWweight))
 round(icsw.out$coefficients["D"], 2)
 
-# Example with bootstrap
-icsw.out <- with(FoxDebate, icsw.tsls(D = watchpro, X = cbind(1, covmat), 
+# Example with bootstrap (this takes awhile!)
+\donttest{icsw.out <- with(FoxDebate, icsw.tsls(D = watchpro, X = cbind(1, covmat), 
                                       Y = infopro, Z = conditn, W = covmat,
                                       min.prob.quantile = 1 / (N^alpha), 
                                       weights = IPWweight, R = 1000))
@@ -127,7 +127,7 @@ icsw.out$coefficients
 
 # Display vector of (bootstrapped) SEs
 icsw.out$coefs.se.boot
-
+}
 }
 
 \keyword{ ~kwd1 }
