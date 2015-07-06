@@ -1,6 +1,5 @@
 # Export all names
 exportPattern(".")
 
-import(base)
 import(stats)
 
