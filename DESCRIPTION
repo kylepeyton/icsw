@@ -5,7 +5,7 @@ Version: 0.9
 Date: 2015-07-01
 Author: Peter M. Aronow <peter.aronow@yale.edu>, Dean Eckles <icsw@deaneckles.com> and Kyle Peyton <kyle.peyton@yale.edu>
 Maintainer: Kyle Peyton <kyle.peyton@yale.edu>
-Description: This package provides the necessary tools to estimate average treatment effects with an instrumental variable by re-weighting observations using a model of compliance. 
+Description: Provides the necessary tools to estimate average treatment effects with an instrumental variable by re-weighting observations using a model of compliance. 
 Depends: R (>= 3.0.0)
 Imports: stats
 Suggests: rgenoud, minqa
