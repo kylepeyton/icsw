@@ -84,13 +84,13 @@ Used by \code{\link{icsw.tsls}}.
 data(FoxDebate)
 
 # Matrix of covariates
-covmat <- with(FoxDebate, cbind(partyid, pnintst, watchnat, educad, readnews, gender, 
-                                income, white))
+covmat <- with(FoxDebate, cbind(partyid, pnintst, watchnat, educad, readnews, 
+                                gender, income, white))
 
 # Estimate compliance scores with covariates, assuming (default) 
 #   case of two-sided non-compliance
 cscoreout <- with(FoxDebate, compliance.score(D = watchpro, Z = conditn,
-                              W = covmat))
+                                              W = covmat))
 
 # Extract vector of estimated compliance scores
 cscore <- cscoreout$C.score
