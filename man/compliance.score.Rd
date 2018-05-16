@@ -38,7 +38,7 @@ Link function applied for linear models. Defaults to probit link function.
 Inverse link function (i.e., mean function) applied for linear models. Defaults to probit mean function.
 }
   \item{genoud}{
-Whether to use global optimization via genetic optimizaton from package \code{rgenoud}.
+Whether to use global optimization via genetic optimization from package \code{rgenoud}.
 Default, and highly recommended because the likelihood need not be concave.
 Otherwise, use the BOBYQA algorithm for constrained optimization from package \code{minqa}.
 }

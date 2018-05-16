@@ -8,7 +8,7 @@ Two-stage least squares with inverse complier score weighting
 \description{
 Estimate average treatment effects using two-stage least squares
 with a binary instrument and binary treatment and weighting with
-inverse complier scores (probabilties of compliance). Optionally,
+inverse complier scores (probabilities of compliance). Optionally,
 bootstrap the entire estimation process for the purpose of hypothesis
 testing and constructing confidence intervals.
 }
