@@ -1,8 +1,8 @@
 Package: icsw
 Type: Package
 Title: Inverse Compliance Score Weighting
-Version: 0.9
-Date: 2015-07-01
+Version: 1.0
+Date: 2018-05-16
 Author: Peter M. Aronow <peter.aronow@yale.edu>, Dean Eckles <icsw@deaneckles.com> and Kyle Peyton <kyle.peyton@yale.edu>
 Maintainer: Kyle Peyton <kyle.peyton@yale.edu>
 Description: Provides the necessary tools to estimate average treatment effects with an instrumental variable by re-weighting observations using a model of compliance. 
