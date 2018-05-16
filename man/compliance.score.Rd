@@ -43,7 +43,7 @@ Default, and highly recommended because the likelihood need not be concave.
 Otherwise, use the BOBYQA algorithm for constrained optimization from package \code{minqa}.
 }
   \item{num.iter}{
-Number of iterations of optimation routine.
+Number of iterations of optimization routine.
 }
   \item{one.sided}{
 Whether non-compliance is one-sided (logical). When compliance is one-sided, the previous
