@@ -11,3 +11,4 @@ Imports: stats
 Suggests: rgenoud, minqa
 License: MIT + file LICENSE
 LazyLoad: yes
+RoxygenNote: 6.0.1
